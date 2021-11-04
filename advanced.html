@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<title>Advanced Search</title>
+    	<link rel="stylesheet" href="styles/styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    </head>
+    <body>
+
+    	<!-- Header -->
+    	<header>
+    		<div id="gb" class="header-top">
+    			<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"/>
+    			<div class="header-right">
+    				<a class="gb_g" href="index.html">Home</a>
+    				<a class="gb_g" href="image.html">Images</a>	
+    			</div>
+    		</div>
+    	</header>
+
+    	<!-- Main -->
+    	<main>
+    		<div>
+    			<div id="title">
+    				<label>Advanced Search</label>	
+    			</div>
+    			<div class="content">
+    				<div class="label">
+    					<h6>Find pages with..</h6>
+    					<p>all these words:</p>
+    					<p>this exact word or phrase:</p>
+    					<p>any of these words:</p>
+    					<p>none of these words:</p>
+    				</div>
+    				<div class="input-field">
+    					<form action="https://google.com/search">
+    						<div class="form-group">
+    							<input type="text" class="form-control" id="usr" name="as_q">
+    						</div>
+    						<div class="form-group">
+    							<input type="text" class="form-control" id="usr" name="as_epq">
+    						</div>
+    						<div class="form-group">
+    							<input type="text" class="form-control" id="usr" name="as_oq">
+    						</div>
+    						<div class="form-group">
+    							<input type="text" class="form-control" id="usr" name="as_eq">
+    						</div>
+    						<input type="submit" value="Advanced Search">
+    					</form>	
+    				</div>
+    				<div class="example">
+    					<div>
+    						<label>To do this in the search box</label>
+    					</div>
+    					<div class="ex">
+    						Type the important words:
+    						<span>tricolor rat terrier</span>	
+    					</div>
+    					<div class="ex">
+    						Put exact words in quotes:
+    						<span>"rat terrier"</span>	
+    					</div>
+    					<div class="ex">
+    						Type OR between all the words you want: 
+    						<br><span>miniature OR standard</span>	
+    					</div>
+    					<div class="ex">
+    						Put a minus sign just before words you don't want:
+    						<br><span>-rodent, -"Jack Russell"</span>	
+    					</div>
+    				</div>
+    			</div>
+    		</div>
+    	</main>
+    	
+    	<!-- Footer -->
+    	<ul style="margin-bottom: 0; padding: 0;">
+	    	<li><a class="active" href="#">Advertising</a></li>
+	        <li><a href="#">Business</a></li>
+	        <li><a href="#">How Search works</a></li>
+	        <li id="fsl"><a href="#">Privacy</a></li>
+	        <li id="fsl"><a href="#">Terms</a></li>
+	    </ul>
+    </body>
+</html>
